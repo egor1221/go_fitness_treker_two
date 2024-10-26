@@ -58,11 +58,11 @@ type InfoMessage struct {
 func (t Training) TrainingInfo() InfoMessage {
 	// вставьте ваш код ниже
 	return InfoMessage{
-		TrainingType: t.TrainingType
-		Duration: t.Duration
-		Distance: t.distance()
-		Speed: t.meanSpeed()   
-		Calories: t.Calories()
+		TrainingType: t.TrainingType,
+		Duration: t.Duration,
+		Distance: t.distance(),
+		Speed: t.meanSpeed(),
+		Calories: t.Calories(),
 	}
 }
 
@@ -110,11 +110,11 @@ func (r Running) Calories() float64 {
 func (r Running) TrainingInfo() InfoMessage {
 	// вставьте ваш код ниже
 	return InfoMessage{
-		TrainingType: r.TrainingType
-		Duration: r.Duration
-		Distance: r.distance()
-		Speed: r.meanSpeed()   
-		Calories: r.Calories()
+		TrainingType: r.TrainingType,
+		Duration: r.Duration,
+		Distance: r.distance(),
+		Speed: r.meanSpeed(),
+		Calories: r.Calories(),
 	} 
 }
 
@@ -147,11 +147,11 @@ func (w Walking) Calories() float64 {
 func (w Walking) TrainingInfo() InfoMessage {
 	// вставьте ваш код ниже
 	return InfoMessage{
-		TrainingType: w.TrainingType
-		Duration: w.Duration
-		Distance: w.distance()
-		Speed: w.meanSpeed()
-		Calories: w.Calories()
+		TrainingType: w.TrainingType,
+		Duration: w.Duration,
+		Distance: w.distance(),
+		Speed: w.meanSpeed(),
+		Calories: w.Calories(),
 	} 
 }
 
@@ -193,11 +193,11 @@ func (s Swimming) Calories() float64 {
 func (s Swimming) TrainingInfo() InfoMessage {
 	// вставьте ваш код ниже
 	return InfoMessage{
-		TrainingType: s.TrainingType
-		Duration: s.Duration
-		Distance: s.distance()
-		Speed: s.meanSpeed()
-		Calories: s.Calories()
+		TrainingType: s.TrainingType,
+		Duration: s.Duration,
+		Distance: s.distance(),
+		Speed: s.meanSpeed(),
+		Calories: s.Calories(),
 	} 
 }
 
